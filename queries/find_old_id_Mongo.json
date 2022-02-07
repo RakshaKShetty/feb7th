@@ -14,12 +14,13 @@
     },
     "pageId": "Mongo",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "{\n  \"find\": \"test\",\n  \"filter\": {\n    \"_id\": ObjectId(\"id_to_query_with\")\n  }\n}\n",
       "formData": {
         "find": {
-          "query": "{\"_id\": ObjectId(\"id_to_query_with\")}"
+          "query": "{\"_id\": ObjectId(\"61c044262deae4dd563903e2\")}"
         },
         "collection": "test",
         "command": "FIND",
@@ -27,6 +28,7 @@
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

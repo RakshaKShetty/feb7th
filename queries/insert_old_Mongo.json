@@ -14,12 +14,13 @@
     },
     "pageId": "Mongo",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "{\n  \"insert\": \"test\",\n  \"documents\": [\n    {\n      \"Från\": \"new value\",\n      \"Frõ\": \"new value\",\n      \"_id\": 1,\n      \"date\": \"new value\",\n    }\n  ]\n}\n",
       "formData": {
         "insert": {
-          "documents": "[{      \"Från\": \"new value\",\n      \"Frõ\": \"new value\",\n      \"_id\": 1,\n      \"date\": \"new value\",\n}]"
+          "documents": "[{      \"Från\": \"new\",\n      \"Frõ\": \"new\",\n      \"date\": \"new\",\n}]"
         },
         "collection": "test",
         "command": "INSERT",
@@ -27,6 +28,7 @@
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

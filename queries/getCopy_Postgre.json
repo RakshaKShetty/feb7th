@@ -17,7 +17,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM feb7 WHERE username = {{Input1.text}} AND usernickname = {{Input2.text}};",
+      "body": "SELECT * FROM feb7 WHERE username = '{{Input1.text}}'",
       "pluginSpecifiedTemplates": [
         {
           "value": false
@@ -34,7 +34,6 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Input2.text",
       "Input1.text"
     ],
     "userSetOnLoad": false,
