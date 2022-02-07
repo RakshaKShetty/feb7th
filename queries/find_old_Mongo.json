@@ -14,12 +14,13 @@
     },
     "pageId": "Mongo",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "{\n  \"find\": \"test\",\n  \"filter\": {\n    \"Från\": \"new value\"\n  },\n  \"sort\": {\n    \"_id\": 1\n  },\n  \"limit\": 10\n}\n",
       "formData": {
         "find": {
-          "query": "{ \"Från\": \"new value\"}",
+          "query": "{}",
           "limit": "10",
           "sort": "{\"_id\": 1}"
         },
@@ -29,6 +30,7 @@
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

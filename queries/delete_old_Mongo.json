@@ -14,13 +14,14 @@
     },
     "pageId": "Mongo",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "{\n  \"delete\": \"test\",\n  \"deletes\": [\n    {\n      \"q\": {\n        \"_id\": \"id_of_document_to_delete\"\n      },\n      \"limit\": 1\n    }\n  ]\n}\n",
       "formData": {
         "collection": "test",
         "delete": {
-          "query": "{ \"_id\": ObjectId(\"id_of_document_to_delete\") }",
+          "query": "{ \"_id\": ObjectId(\"6200fd1ac00ab80687b912d3\") }",
           "limit": "SINGLE"
         },
         "command": "DELETE",
@@ -28,6 +29,7 @@
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

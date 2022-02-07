@@ -14,12 +14,13 @@
     },
     "pageId": "Mongo",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "{\n  \"update\": \"test\",\n  \"updates\": [\n    {\n      \"q\": {\n        \"_id\": ObjectId(\"id_of_document_to_update\")\n      },\n      \"u\": { \"$set\": { \"Från\": \"new value\" } }\n    }\n  ]\n}\n",
       "formData": {
         "updateMany": {
-          "query": "{ \"_id\": ObjectId(\"id_of_document_to_update\") }",
+          "query": "{ \"_id\": ObjectId(\"6200fd1ac00ab80687b912d3\") }",
           "limit": "ALL",
           "update": "{ \"$set\": { \"Från\": \"new value\" } }"
         },
@@ -29,6 +30,7 @@
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

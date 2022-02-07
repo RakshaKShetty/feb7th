@@ -6,6 +6,12 @@
   "color": "#E4D8CC",
   "icon": "location",
   "slug": "git-feb-7-regression",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "evaluationVersion": 2,
   "publishedModeThemeId": "61c57741db67aa7828fd7472",
   "editModeThemeId": "61c57741db67aa7828fd7472",
