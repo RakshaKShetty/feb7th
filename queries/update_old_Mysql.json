@@ -14,6 +14,7 @@
     },
     "pageId": "Mysql",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE Detail SET\n    ID = 1,\n    NAME = '',\n    AGE = 1,\n    ADDRESS = '',\n    SALARY = 1.0,\n    last_login = '2019-07-01 10:00:00'\n  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may update every row in the table!"

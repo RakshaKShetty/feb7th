@@ -14,6 +14,7 @@
     },
     "pageId": "snowflake",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE PUBLIC.JAN31 SET\n    USERNAME = '',\n    USERHOMEADDRESS = '',\n    EMAIL = '',\n    USEFAVORITECOLOR = '',\n    USERNICKNAME = '',\n    PASSWORD = '',\n    USERRANK = '',\n    USERFAVORITENUMBER = '',\n    USER_ID = 1,\n    CREATED_ON = '2021-01-01 00:00:01',\n    PHONE = 1\n  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may update every row in the table!"

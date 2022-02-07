@@ -14,6 +14,7 @@
     },
     "pageId": "Postgre",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE public.\"anime\" SET\n    \"name\" = '',\n    \"rating\" = 1\n  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may update every row in the table!"

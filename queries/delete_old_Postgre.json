@@ -14,6 +14,7 @@
     },
     "pageId": "Postgre",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "DELETE FROM public.\"anime\"\n  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may delete everything in the table!"
