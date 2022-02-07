@@ -1,0 +1,103 @@
+{
+  "unpublishedPage": {
+    "name": "Page5",
+    "slug": "page5",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 656,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 680,
+          "containerStyle": "none",
+          "snapRows": 56,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 51,
+          "minHeight": 570,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "DocumentViewer1",
+              "rightColumn": 44,
+              "isCanvas": false,
+              "displayName": "Document Viewer",
+              "iconSVG": "/static/media/icon.09fcd36b.svg",
+              "widgetId": "2fh4p5t70r",
+              "topRow": 4,
+              "bottomRow": 44,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "DOCUMENT_VIEWER_WIDGET",
+              "version": 1,
+              "hideCard": false,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 2,
+              "dynamicBindingPathList": [],
+              "docUrl": "https://www.pdfbooksworld.com/Romeo-and-Juliet-by-William-Shakespeare",
+              "key": "ek22x295i4"
+            },
+            {
+              "boxShadow": "NONE",
+              "widgetName": "IconButton1",
+              "buttonColor": "#03B365",
+              "displayName": "Icon Button",
+              "iconSVG": "/static/media/icon.1a0c634a.svg",
+              "topRow": 46,
+              "bottomRow": 66,
+              "parentRowSpace": 10,
+              "type": "ICON_BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 16,
+              "dynamicBindingPathList": [],
+              "isDisabled": true,
+              "key": "ebxahhu6ji",
+              "rightColumn": 44,
+              "iconName": "predictive-analysis",
+              "widgetId": "3wn1ls9qub",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "CIRCLE",
+              "buttonVariant": "PRIMARY"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "DocumentViewer1",
+          "IconButton1",
+          "MainContainer"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Page5",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "6200c520b5bfc0392b959c0e_6200feb2b5bfc0392b959eab"
+}
