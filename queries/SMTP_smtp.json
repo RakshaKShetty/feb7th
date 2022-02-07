@@ -12,7 +12,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "smtp",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -53,7 +53,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_SMTP",
+  "id": "smtp_SMTP",
   "deleted": false,
   "gitSyncId": "6200c6a3b5bfc0392b959c11_6200e758b5bfc0392b959dd2"
 }
