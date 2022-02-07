@@ -2,8 +2,8 @@
   "fileFormatVersion": 1,
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 1,
-  "publishedDefaultPageName": "Page1",
-  "unpublishedDefaultPageName": "Page1",
+  "publishedDefaultPageName": "Postgre_Crud",
+  "unpublishedDefaultPageName": "Postgre_Crud",
   "editModeTheme": {
     "name": "Classic",
     "isSystemTheme": true,
