@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "amazons3-plugin",
   "unpublishedAction": {
-    "name": "ListFiles",
+    "name": "Query1",
     "datasource": {
       "pluginId": "amazons3-plugin",
       "messages": [],
@@ -12,26 +12,18 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Assets-test.appsmith.com",
+    "pageId": "Page4",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "path": "",
       "encodeParamsToggle": true,
-      "body": "{\n\t\"data\": \"\"\n}",
+      "body": "",
       "formData": {
+        "command": "LIST",
         "bucket": "assets-test.appsmith.com",
-        "read": {
-          "usingBase64Encoding": "YES",
-          "dataType": "YES",
-          "expiry": "5"
-        },
-        "create": {
-          "dataType": "YES",
-          "expiry": "5"
-        },
         "list": {
-          "prefix": "{{search_input.text}}",
+          "prefix": "",
           "where": {
             "condition": "AND",
             "children": [
@@ -40,8 +32,8 @@
               }
             ]
           },
-          "expiry": "{{ 60 * 24 }}",
-          "signedUrl": "YES",
+          "signedUrl": "NO",
+          "expiry": "5",
           "unSignedUrl": "YES",
           "sortBy": [
             {
@@ -50,27 +42,29 @@
             }
           ]
         },
-        "delete": {
+        "create": {
+          "dataType": "YES",
           "expiry": "5"
         },
-        "command": "LIST"
+        "read": {
+          "expiry": "5",
+          "usingBase64Encoding": "YES"
+        },
+        "smartSubstitution": true
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "60 * 24",
-      "search_input.text"
-    ],
-    "userSetOnLoad": true,
+    "jsonPathKeys": [],
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Assets-test.appsmith.com_ListFiles",
+  "id": "Page4_Query1",
   "deleted": false,
-  "gitSyncId": "6200c6a3b5bfc0392b959c11_6200d903b5bfc0392b959d2c"
+  "gitSyncId": "62010c98b5bfc0392b95a007_62010f33b5bfc0392b95a08b"
 }
