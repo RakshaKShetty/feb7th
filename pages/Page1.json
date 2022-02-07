@@ -8,25 +8,131 @@
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
+
           "rightColumn": 1224,
+
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
+
           "bottomRow": 640,
+
           "containerStyle": "none",
           "snapRows": 64,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 51,
+
           "minHeight": 650,
+
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": []
+          "children": [
+            {
+              "boxShadow": "NONE",
+              "widgetName": "Container1",
+              "borderColor": "#FFC13D",
+              "isCanvas": true,
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 3,
+              "bottomRow": 35,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 4,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "rightColumn": 241.5,
+                  "detachFromLayout": true,
+                  "displayName": "Canvas",
+                  "widgetId": "pq9ybuza9d",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 840,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "hideCard": true,
+                  "parentId": "s44wzvlg1j",
+                  "minHeight": 400,
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "CheckboxGroup1",
+                      "displayName": "Checkbox Group",
+                      "iconSVG": "/static/media/icon.ecb38479.svg",
+                      "topRow": 19,
+                      "bottomRow": 82,
+                      "parentRowSpace": 10,
+                      "type": "CHECKBOX_GROUP_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 8.3349609375,
+                      "leftColumn": 8,
+                      "options": [
+                        {
+                          "label": "Blue",
+                          "value": "BLUE"
+                        },
+                        {
+                          "label": "Green",
+                          "value": "GREEN"
+                        },
+                        {
+                          "label": "Red",
+                          "value": "RED"
+                        }
+                      ],
+                      "isDisabled": false,
+                      "key": "xtluuhm2yr",
+                      "isRequired": false,
+                      "rightColumn": 30,
+                      "defaultSelectedValues": "BLUE",
+                      "widgetId": "7a8wkop963",
+                      "isVisible": true,
+                      "version": 2,
+                      "parentId": "pq9ybuza9d",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "isInline": true
+                    }
+                  ],
+                  "key": "vyr3f979iz"
+                }
+              ],
+              "borderWidth": "2",
+              "key": "00umo5bawo",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 59,
+              "widgetId": "s44wzvlg1j",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0"
+            }
+          ]
         },
         "layoutOnLoadActions": [],
+
+
         "validOnPageLoadActions": true,
         "id": "Page1",
         "deleted": false,
