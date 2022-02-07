@@ -183,6 +183,67 @@
                 "step": 62,
                 "status": 75
               }
+            },
+            {
+              "widgetName": "Text1",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b52.svg",
+              "topRow": 34,
+              "bottomRow": 38,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 7,
+              "dynamicBindingPathList": [
+                {
+                  "key": "text"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "#FFC13D",
+              "text": "SUM = {{JSObject1.myFun1()}}",
+              "key": "ofu1da3kth",
+              "rightColumn": 16,
+              "textAlign": "LEFT",
+              "widgetId": "tasvu3nnck",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "shouldScroll": false,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "fontSize": "PARAGRAPH"
+            },
+            {
+              "widgetName": "RichTextEditor1",
+              "displayName": "Rich Text Editor",
+              "iconSVG": "/static/media/icon.b35e139c.svg",
+              "topRow": 40,
+              "bottomRow": 60,
+              "parentRowSpace": 10,
+              "type": "RICH_TEXT_EDITOR_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "leftColumn": 1,
+              "inputType": "html",
+              "isDisabled": false,
+              "key": "u2henl07k4",
+              "isRequired": false,
+              "rightColumn": 40,
+              "isDefaultClickDisabled": true,
+              "widgetId": "boiyr9wkfs",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "defaultText": "This is the initial <b>content</b> of the editor"
             }
           ]
         },
@@ -198,6 +259,8 @@
           ]
         ],
         "widgetNames": [
+          "Text1",
+          "RichTextEditor1",
           "MainContainer",
           "Table1"
         ],
