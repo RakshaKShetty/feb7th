@@ -282,9 +282,9 @@
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
-          "Input1",
           "FilePicker1",
           "Image1",
+          "Input1",
           "MainContainer",
           "Table1"
         ],

@@ -29,9 +29,9 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "update_col_3.text",
-      "update_col_2.text",
       "Table1.selectedRow.id",
+      "update_col_2.text",
+      "update_col_3.text",
       "update_col_4.text"
     ],
     "userSetOnLoad": false,

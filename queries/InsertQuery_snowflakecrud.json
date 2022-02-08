@@ -30,10 +30,10 @@
     "messages": [],
     "jsonPathKeys": [
       "insert_col_input1.text",
-      "insert_col_input5.text",
-      "insert_col_input4.text",
+      "insert_col_input2.text",
       "insert_col_input3.text",
-      "insert_col_input2.text"
+      "insert_col_input4.text",
+      "insert_col_input5.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

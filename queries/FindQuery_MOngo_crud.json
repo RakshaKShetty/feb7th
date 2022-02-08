@@ -43,10 +43,10 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "key_select.selectedOptionValue",
+      "(data_table.pageNo - 1) * data_table.pageSize",
       "data_table.pageSize",
       "data_table.searchText||\"\"",
-      "(data_table.pageNo - 1) * data_table.pageSize",
+      "key_select.selectedOptionValue",
       "order_select.selectedOptionValue"
     ],
     "userSetOnLoad": true,

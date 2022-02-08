@@ -43,10 +43,10 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "FilePicker1.files",
       "Image1.image",
       "Input1.text",
-      "Table1.selectedRow",
-      "FilePicker1.files"
+      "Table1.selectedRow"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

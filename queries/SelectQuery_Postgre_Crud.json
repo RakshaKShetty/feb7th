@@ -30,9 +30,9 @@
     "messages": [],
     "jsonPathKeys": [
       "(Table1.pageNo - 1) * Table1.pageSize",
+      "Table1.pageSize",
       "Table1.searchText || \"\"",
       "col_select.selectedOptionValue",
-      "Table1.pageSize",
       "order_select.selectedOptionValue"
     ],
     "userSetOnLoad": true,
